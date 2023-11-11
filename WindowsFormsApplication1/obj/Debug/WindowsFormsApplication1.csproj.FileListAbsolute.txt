@@ -1,0 +1,16 @@
+D:\NguyenVinh2120110174\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\bin\Debug\EPPlus.dll
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\bin\Debug\EPPlus.xml
+C:\Users\admin\Desktop\NguyenVinh2120110174-BaiThiCuoiKy-master\NguyenVinh2120110174-BaiThiCuoiKy-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete

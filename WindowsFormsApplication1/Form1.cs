@@ -20,9 +20,12 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+            dataGridView1.RowsAdded += dataGridView1_RowsAdded;
+
 
 
         }
+
         private byte[] _Logo;
         Modify modify = new Modify();
         QuanLyDoanhThu quanLy = new QuanLyDoanhThu("Tên CLB", "Tên Nước", 100, 10.5, new byte[] { 1, 2, 3, 4 }); // Thay thế các giá trị tương ứng
@@ -112,6 +115,7 @@ namespace WindowsFormsApplication1
             DataGridViewImageColumn pic = new DataGridViewImageColumn();
             pic = (DataGridViewImageColumn)dataGridView1.Columns[5];
             pic.ImageLayout = DataGridViewImageCellLayout.Zoom;
+
             try
             {
 
@@ -306,6 +310,14 @@ namespace WindowsFormsApplication1
             }
         }
 
+        private void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            // Thiết lập ReadOnly cho tất cả các cột của dòng mới thêm vào
+            foreach (DataGridViewColumn col in dataGridView1.Columns)
+            {
+                dataGridView1.Rows[e.RowIndex].Cells[col.Name].ReadOnly = true;
+            }
+        }
 
 
 
@@ -335,7 +347,7 @@ namespace WindowsFormsApplication1
                                 command.Parameters.AddWithValue("@GiaVe", quanLy.GiaVe);
                                 command.Parameters.AddWithValue("@TongTien", quanLy.DoanhThu());
 
-                                // Kiểm tra giá trị của quanLy.Logo trước khi thêm vào tham số
+                              
                                 if (quanLy.Logo != null)
                                 {
                                     SqlParameter logoParameter = new SqlParameter("@Logo", SqlDbType.VarBinary);
@@ -344,14 +356,14 @@ namespace WindowsFormsApplication1
                                 }
                                 else
                                 {
-                                    // Nếu Logo là null, thì thêm giá trị DBNull.Value cho tham số
+             
                                     command.Parameters.AddWithValue("@Logo", DBNull.Value);
                                 }
 
                                 command.Parameters.AddWithValue("@TenCLB", quanLy.TenCLB);
 
                                 int rowsAffected = command.ExecuteNonQuery();
-                                if (rowsAffected > 0)
+                                if (rowsAffected > 1)
                                 {
                                     MessageBox.Show("Sửa Thành Công!");
                                     Form1_Load(sender, e);
@@ -408,6 +420,7 @@ namespace WindowsFormsApplication1
                 }
             }
         }
+
 
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

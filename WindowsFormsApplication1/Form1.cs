@@ -448,7 +448,7 @@ namespace WindowsFormsApplication1
                 }
                 else
                 {
-                    MessageBox.Show("Giá trị được chọn không tồn tại hoặc là null.");
+                    MessageBox.Show("Không có dữ liệu để xóa.");
                 }
             }
             else

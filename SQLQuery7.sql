@@ -1,0 +1,7 @@
+SELECT TOP (1000) [TenCauLacBo]
+      ,[TenNuoc]
+      ,[SoLuongVe]
+      ,[GiaVe]
+      ,[TongTien]
+      ,[Logo]
+  FROM [CauLacBo].[dbo].[CBL]

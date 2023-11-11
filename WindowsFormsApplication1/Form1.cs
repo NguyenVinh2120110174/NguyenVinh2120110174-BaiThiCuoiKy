@@ -40,7 +40,7 @@ namespace WindowsFormsApplication1
             switch (comboBox_CLB.SelectedIndex)
             {
                 case 0:
-                    giaVe = 10.0;
+                    giaVe = 12.0;
                     tenNuoc = "ANH";
                     break;
                 case 1:
